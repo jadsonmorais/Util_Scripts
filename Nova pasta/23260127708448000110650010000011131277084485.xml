@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+  <NFe>
+    <infNFe Id="NFe23260127708448000110650010000011131277084485" versao="4.00">
+      <ide>
+        <cUF>23</cUF>
+        <cNF>27708448</cNF>
+        <natOp>VENDA AO CONSUMIDOR</natOp>
+        <mod>65</mod>
+        <serie>1</serie>
+        <nNF>1113</nNF>
+        <dhEmi>2026-01-14T14:21:57-03:00</dhEmi>
+        <tpNF>1</tpNF>
+        <idDest>1</idDest>
+        <cMunFG>2304400</cMunFG>
+        <tpImp>4</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>5</cDV>
+        <tpAmb>1</tpAmb>
+        <finNFe>1</finNFe>
+        <indFinal>1</indFinal>
+        <indPres>1</indPres>
+        <procEmi>0</procEmi>
+        <verProc>25.1.0.0</verProc>
+      </ide>
+      <emit>
+        <CNPJ>27708448000110</CNPJ>
+        <xNome>CARMEL TAIBA CONSTRUTORA LTDA</xNome>
+        <xFant>CARMEL TAIBA EXCLUSIVE RESORT</xFant>
+        <enderEmit>
+          <xLgr>RUA CAPITAO INACIO PRATA</xLgr>
+          <nro>900</nro>
+          <xBairro>PRAIA DA TAIBA</xBairro>
+          <cMun>2304400</cMun>
+          <xMun>FORTALEZA</xMun>
+          <UF>CE</UF>
+          <CEP>62670000</CEP>
+          <cPais>1058</cPais>
+          <xPais>BRASIL</xPais>
+          <fone>8532661323</fone>
+        </enderEmit>
+        <IE>67634915</IE>
+        <CRT>3</CRT>
+      </emit>
+      <det nItem="1">
+        <prod>
+          <cProd>6010002</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>Batata Pringles 114Gr</xProd>
+          <NCM>19049000</NCM>
+          <CFOP>5405</CFOP>
+          <uCom>UN</uCom>
+          <qCom>1.00</qCom>
+          <vUnCom>38.00</vUnCom>
+          <vProd>38.00</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>UN</uTrib>
+          <qTrib>1.00</qTrib>
+          <vUnTrib>38.00</vUnTrib>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS60>
+              <orig>0</orig>
+              <CST>60</CST>
+              <vBCSTRet>0.00</vBCSTRet>
+              <pST>0.00</pST>
+              <vICMSSTRet>0.00</vICMSSTRet>
+              <pRedBCEfet>0.00</pRedBCEfet>
+              <vBCEfet>38.00</vBCEfet>
+              <pICMSEfet>0.00</pICMSEfet>
+              <vICMSEfet>0.00</vICMSEfet>
+            </ICMS60>
+          </ICMS>
+          <PIS>
+            <PISAliq>
+              <CST>01</CST>
+              <vBC>38.00</vBC>
+              <pPIS>0.65</pPIS>
+              <vPIS>0.25</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>01</CST>
+              <vBC>38.00</vBC>
+              <pCOFINS>3.00</pCOFINS>
+              <vCOFINS>1.14</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+          <IBSCBS>
+            <CST>200</CST>
+            <cClassTrib>200047</cClassTrib>
+            <gIBSCBS>
+              <vBC>36.61</vBC>
+              <gIBSUF>
+                <pIBSUF>0.10</pIBSUF>
+                <gRed>
+                  <pRedAliq>40.00</pRedAliq>
+                  <pAliqEfet>0.06</pAliqEfet>
+                </gRed>
+                <vIBSUF>0.02</vIBSUF>
+              </gIBSUF>
+              <gIBSMun>
+                <pIBSMun>0.00</pIBSMun>
+                <gRed>
+                  <pRedAliq>40.00</pRedAliq>
+                  <pAliqEfet>0.00</pAliqEfet>
+                </gRed>
+                <vIBSMun>0.00</vIBSMun>
+              </gIBSMun>
+              <vIBS>0.02</vIBS>
+              <gCBS>
+                <pCBS>0.90</pCBS>
+                <gRed>
+                  <pRedAliq>40.00</pRedAliq>
+                  <pAliqEfet>0.54</pAliqEfet>
+                </gRed>
+                <vCBS>0.20</vCBS>
+              </gCBS>
+            </gIBSCBS>
+          </IBSCBS>
+        </imposto>
+      </det>
+      <total>
+        <ICMSTot>
+          <vBC>0.00</vBC>
+          <vICMS>0.00</vICMS>
+          <vICMSDeson>0.00</vICMSDeson>
+          <vFCP>0.00</vFCP>
+          <vBCST>0.00</vBCST>
+          <vST>0.00</vST>
+          <vFCPST>0.00</vFCPST>
+          <vFCPSTRet>0.00</vFCPSTRet>
+          <vProd>38.00</vProd>
+          <vFrete>0.00</vFrete>
+          <vSeg>0.00</vSeg>
+          <vDesc>0.00</vDesc>
+          <vII>0.00</vII>
+          <vIPI>0.00</vIPI>
+          <vIPIDevol>0.00</vIPIDevol>
+          <vPIS>0.25</vPIS>
+          <vCOFINS>1.14</vCOFINS>
+          <vOutro>0.00</vOutro>
+          <vNF>38.00</vNF>
+        </ICMSTot>
+        <IBSCBSTot>
+          <vBCIBSCBS>36.61</vBCIBSCBS>
+          <gIBS>
+            <gIBSUF>
+              <vDif>0.00</vDif>
+              <vDevTrib>0.00</vDevTrib>
+              <vIBSUF>0.02</vIBSUF>
+            </gIBSUF>
+            <gIBSMun>
+              <vDif>0.00</vDif>
+              <vDevTrib>0.00</vDevTrib>
+              <vIBSMun>0.00</vIBSMun>
+            </gIBSMun>
+            <vIBS>0.02</vIBS>
+            <vCredPres>0.00</vCredPres>
+            <vCredPresCondSus>0.00</vCredPresCondSus>
+          </gIBS>
+          <gCBS>
+            <vDif>0.00</vDif>
+            <vDevTrib>0.00</vDevTrib>
+            <vCBS>0.20</vCBS>
+            <vCredPres>0.00</vCredPres>
+            <vCredPresCondSus>0.00</vCredPresCondSus>
+          </gCBS>
+        </IBSCBSTot>
+      </total>
+      <transp>
+        <modFrete>9</modFrete>
+      </transp>
+      <pag>
+        <detPag>
+          <tPag>99</tPag>
+          <xPag>Debito Apartamento</xPag>
+          <vPag>38.00</vPag>
+        </detPag>
+      </pag>
+      <infAdic>
+        <infCpl>9055/CONSUMO INTERNO / WS: 15560 / Conta: 60002510 / Mesa: 0 / Emp.: KEVIN / Qtd.: 0</infCpl>
+      </infAdic>
+      <infRespTec>
+        <CNPJ>59456277000176</CNPJ>
+        <xContato>Marcelo Werson Rodrigues</xContato>
+        <email>marcelo.rodrigues@oracle.com</email>
+        <fone>1151841000</fone>
+      </infRespTec>
+    </infNFe>
+    <infNFeSupl>
+      <qrCode>http://nfceh.sefaz.ce.gov.br/pages/ShowNFCe.html?p=23260127708448000110650010000011131277084485|2|1|1|0A35461A9DB8B8AF5D40C7E1EDB3F83198A92233</qrCode>
+      <urlChave>www.sefaz.ce.gov.br/nfce/consulta</urlChave>
+    </infNFeSupl>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+        <Reference URI="#NFe23260127708448000110650010000011131277084485">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+            <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+          <DigestValue>P1woP3QTHSr7L09+2xXKCNkahYk=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>SF9ozWDrXfUjmS14lVBTxd/fRxNKf1Fe0gfPwHtZD3BP/Qzvfe9ize/SrxyPEA33HkhcAPSwUwS2HpvCj87MasmHtuej8S/Zzrp8Q7hnI4o9ECd9lQ6xx4RtwCE7nlP88JXgZFvqiKv+RgoI6GNjg3ZYzDwl7XZVU5CNxgHD1yoSI+weukjMQmaLmSWYy59jw2bbOiUDCgI4SgW/6S/OmOkYM4O7bM5mWOTpywAEJljfLPE0oii2cpCuQS8dfd1PlaljdjJrPg1Lj8DelN5ajDBSWItrifOaUoxur2I3bE3GGeSAKnRe4fVPILfD2+VoNmjGzO8im4PSRJkVv+emAg==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>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</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+  </NFe>
+  <protNFe xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" versao="4.00">
+          <infProt>
+            <tpAmb>1</tpAmb>
+            <verAplic>SVRSnfce2512111137DR</verAplic>
+            <chNFe>23260127708448000110650010000011131277084485</chNFe>
+            <dhRecbto>2026-01-14T14:21:58-03:00</dhRecbto>
+            <nProt>223260038949515</nProt>
+            <digVal>P1woP3QTHSr7L09+2xXKCNkahYk=</digVal>
+            <cStat>100</cStat>
+            <xMotivo>Autorizado o uso da NF-e</xMotivo>
+          </infProt>
+        </protNFe>
+</nfeProc>
