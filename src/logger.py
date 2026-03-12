@@ -47,6 +47,8 @@ def setup_logger(
     # File handler (if log file specified)
     if log_file:
         log_path = config.LOG_DIR / log_file
+        # Ensure log directory exists
+        log_path.parent.mkdir(parents=True, exist_ok=True)
         file_handler = RotatingFileHandler(
             log_path,
             maxBytes=10485760,  # 10MB

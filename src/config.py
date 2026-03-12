@@ -6,7 +6,7 @@ Centralizes all configuration variables and provides environment-based overrides
 import os
 from pathlib import Path
 from typing import Set
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 
 @dataclass
@@ -33,7 +33,7 @@ class Config:
     DAYS_BACK: int = int(os.getenv("DAYS_BACK", "7"))
     
     # CNF codes to search (configurable via environment)
-    CNF_CODES: Set[str] = os.getenv("CNF_CODES", "046005,046006,046007").split(",")
+    CNF_CODES: Set[str] = field(default_factory=lambda: os.getenv("CNF_CODES", "046005,046006,046007").split(","))
     
     # Logging
     LOG_LEVEL: str = os.getenv("LOG_LEVEL", "INFO")
